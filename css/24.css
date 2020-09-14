@@ -1,0 +1,44 @@
+* {
+    border: 1px solid black;
+}
+
+body {
+    background-color: rgba(124, 212, 128, 0.424);
+}
+
+nav {
+    background-color: lightcyan;
+}
+
+nav a {
+    background-color: lavender;
+    font-size: 4rem
+}
+
+main {
+    background-color: rgb(59, 122, 84);
+}
+
+h2 {
+    background-color: mediumorchid;
+}
+
+p {
+    background-color: moccasin;
+}
+
+footer {
+    background-color: plum;
+}
+
+footer ul {
+    background-color: lightseagreen;
+}
+
+footer li {
+    background-color: paleturquoise;
+}
+
+footer a {
+    background-color: thistle;
+}

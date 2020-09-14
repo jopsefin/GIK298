@@ -1,0 +1,109 @@
+
+body {
+    background-color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: darkred;
+    padding: 20px;
+    
+}
+
+nav a {
+    background-color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: darkred;
+}
+
+nav a:hover {
+    background-color: darkred;
+    color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+    object-position: initial;
+    height: 500px;
+}
+
+main p {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+.profile_picture {
+    width: 240px;
+    height: 240px;
+    float: left;
+}
+
+
+.about {
+    width: 50%;
+    height: 240px;
+    float: left;
+    margin-left: 25px;
+}
+
+.about p {
+    margin-left: 10px;
+}
+
+.hobbies {
+    float: left;
+    width: 100%;
+}
+
+footer {
+    background-color: darkred;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+
+}
+
+
+footer p {
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 0px;
+    
+}
+
+footer ul {
+    margin: 5px 0px 25px 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+footer li {
+    color: whitesmoke;
+    font-size: 12px;
+    list-style-type: none;
+
+}
+
+footer ul li img {
+    position: relative;   
+    top: 4px;
+    filter: invert(100%);
+}
+
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: gray;
+    filter: invert(50%);
+}
