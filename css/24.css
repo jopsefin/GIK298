@@ -1,30 +1,48 @@
-* {
-    border: 1px solid black;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 body {
-    background-color: rgba(124, 212, 128, 0.424);
+    background-color: black;
+    font-family: 'Special Elite', cursive;
 }
 
 nav {
-    background-color: lightcyan;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
 }
 
 nav a {
-    background-color: lavender;
-    font-size: 4rem
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+.logo h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+nav a:hover {
+    background-color: RGB(224, 123, 61);
 }
 
 main {
-    background-color: rgb(59, 122, 84);
+    background-color: black;
 }
 
 h2 {
-    background-color: mediumorchid;
+    background-color: white;
+    color: black;
 }
 
 p {
-    background-color: moccasin;
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 footer {
